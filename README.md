@@ -14,7 +14,7 @@ Github: https://github.com/B-Amela/Group_Project_7
 
 Branches: https://github.com/B-Amela/Group_Project_7/branches
 
-Machine Learning Model: Regression models
+Machine Learning Model: Classification models
 
 Database: SQL, PgAdmin
 
