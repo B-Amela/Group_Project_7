@@ -11,9 +11,11 @@ Question to ask?
 2.	Depending on result – can that be used to predict popularity of song? 
 
 Github: https://github.com/B-Amela/Group_Project_7
+
 Branches: https://github.com/B-Amela/Group_Project_7/branches
 
 Machine Learning Model: Regression models
+
 Database: SQL, PgAdmin
 
 ## Communication Protocols
