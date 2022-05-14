@@ -5,6 +5,7 @@ Deliverable 1:  Group 7
   - Reason why? We thought it would be a good data set to use. We all like music.
 
 Source: Kaggle, Spotify dataset
+- Kaggle Link: https://www.kaggle.com/datasets/akiboy96/spotify-dataset/metadata 
 
 Question to ask?
 1.	Which components are important for the popularity of a song?
