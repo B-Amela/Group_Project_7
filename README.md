@@ -12,3 +12,6 @@ Branches: https://github.com/B-Amela/Group_Project_7/branches
 
 Machine Learning Model: Regression models
 Database: SQL, PgAdmin
+
+## Communication Protocols
+Slack group messaging and zoom meetings as needed
