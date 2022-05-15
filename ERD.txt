@@ -1,0 +1,38 @@
+Info
+-
+Track varchar PK FK >- Sound.Track
+Uri varchar PK FK >- Musicality.Uri
+Artist varchar
+Popularity int
+Decade varchar
+
+Qualilty
+-
+Track varchar 
+Uri varchar 
+Danceability int
+Energy int
+Valence int
+chorus_hit int
+sections int 
+
+
+Musicality
+-
+Track varchar
+Uri varchar
+Key int
+Mode int
+time_signature int
+Tempo int
+Duration(ms) int
+
+Sound
+-
+Track varchar 
+Uri varchar FK >- Qualilty.Uri
+Loudness int 
+Speechiness int
+Acousticness int
+Instrumentalness int
+Liveness int
