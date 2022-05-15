@@ -10,9 +10,9 @@ Features list:
 - Uri
 - Danceability
 - Energy
-- Key
+- Key: Key is the pitch, notes or scale of song that forms the basis of a song. 12 keys are ranging from 0 to 11.
 - Loudness
-- Mode
+- Mode: Songs can be classified as major and minor. 1.0 represents major mode and 0 represents minor
 - Speechiness
 - Acousticness
 - Instrumentalness
