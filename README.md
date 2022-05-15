@@ -1,7 +1,7 @@
 # Group_Project_7
 
 - Kaggle Link: https://www.kaggle.com/datasets/akiboy96/spotify-dataset/metadata
-
+- Quick DBD link: https://app.quickdatabasediagrams.com/#/ 
 
 
 Features list:
@@ -17,11 +17,11 @@ Features list:
 - Acousticness
 - Instrumentalness
 - Liveness
-- Valence
+- Valence: A measure from 0.0 to 1.0 describing the musical positiveness conveyed by a track
 - Tempo
 - Duration (ms)
 - time_signature
-- chorus_hit
+- chorus_hit: when the chorus first plays
 - sections
 - Popularity
 - Decade
