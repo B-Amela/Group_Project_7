@@ -25,3 +25,9 @@ Features list:
 - sections
 - Popularity
 - Decade
+
+
+![ERD1](https://user-images.githubusercontent.com/94864663/168455480-c3a7c112-c04a-4376-b971-554e8ff271a2.png)
+
+![ERD2](https://user-images.githubusercontent.com/94864663/168455481-850032c0-2457-4819-977a-92705707c9aa.png)
+
