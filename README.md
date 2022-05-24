@@ -42,9 +42,12 @@ The data source is a Kaggle Spotify dataset in a csv file. There are approximate
 We did OneHot Encoder to encode the categorical data and replace our unencoded categorical variable
 ![d1](https://github.com/B-Amela/Group_Project_7/blob/Michael/Decades%20after%20preprocessing.PNG)
 ### Description of feature engineering and the feature selection, including the team's decision-making process 
+We decided to drop uri, artist, track and decade since these variables did not affect popularity.
+
 ### Description of how data was split into training and testing sets 
  ### Explanation of model choice, including limitations and benefits 
 ### Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables)
+We chose randomforest because it is a good model to handle outliers. We chose neural networks because they behave like a regression model and .....
 ### Description of how model was trained (or retrained, if they are using an existing model)
 ### Description and explanation of the model's confusion matrix, including final accuracy score Additionally, the model obviously addresses the question or problem the team is solving.  
 ## Technologies, languages, tools, and algorithms used throughout the project 
