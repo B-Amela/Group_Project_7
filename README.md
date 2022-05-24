@@ -15,8 +15,9 @@ The data source is a Kaggle Spotify dataset in a csv file. There are approximate
  ###  Description of the data exploration phase of the project
 - Mock ML to clean and visualize the data
 - EDA
- ### Description of the analysis phase of the project 
+ ### Description of the analysis phase of the project
 ### Description of data preprocessing 
+##Deep Neural Network- We had one column of categorical data; the decade in form of XXs (i.e 60s for 1960's). 
 ### Description of feature engineering and the feature selection, including the team's decision-making process 
 ### Description of how data was split into training and testing sets 
  ### Explanation of model choice, including limitations and benefits 
