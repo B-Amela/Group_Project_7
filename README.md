@@ -51,6 +51,9 @@ We decided to drop uri, artist, track and decade since these variables did not a
 ### Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables)
 
 ### Description of how model was trained (or retrained, if they are using an existing model)
+Our model was trained to have popularity, the metric we are interested in, as our y variable. Our x variable are all our other processed columns in our dataset. We split test trained our model by scaling and fiting the data as seen in the following code.
+
+
 ### Description and explanation of the model's confusion matrix, including final accuracy score Additionally, the model obviously addresses the question or problem the team is solving.  
 ## Technologies, languages, tools, and algorithms used throughout the project 
 ###  Database stores static data for use during the project 
