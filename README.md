@@ -46,6 +46,9 @@ We decided to drop uri, artist, track and decade since these variables did not a
 ![image](https://user-images.githubusercontent.com/97119920/169933638-b2821253-40d8-4687-a200-a991bb9b5a5c.png)
 
 ### Description of how data was split into training and testing sets 
+By default, our training and testing data sets are 75% and 25%, respectively, of the original data. The following code shows the data's 75-25 split.
+
+*Add image Here*
  ### Explanation of model choice, including limitations and benefits 
  Neural networks behave like a regression model dependent on output variables that can be predicted from independent input variables. We chose the random forest deep learning model because it is a good model to handle outliers and nonlinear data. Furthermore, we chose neural networks random forest because it is a type of ensemble that combines multiple smaller models into a more robust, scalable and accurate model. The model uses weak learner algorithms or decision trees that produce a final classification output.]
  
@@ -57,6 +60,7 @@ Our model was trained to have popularity, the metric we are interested in, as ou
 ![image](https://user-images.githubusercontent.com/97119920/170082971-ca4a32ae-f37d-4b6e-bd13-66437d77fb29.png)
 
 ### Description and explanation of the model's confusion matrix, including final accuracy score. Additionally, the model obviously addresses the question or problem the team is solving.  
+The model was able to correctly classify data it was not trained on 80% of the time. 
 
 ## Technologies, languages, tools, and algorithms used throughout the project 
 ###  Database stores static data for use during the project 
