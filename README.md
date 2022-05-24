@@ -43,6 +43,7 @@ We did OneHot Encoder to encode the categorical data and replace our unencoded c
 ![d1](https://github.com/B-Amela/Group_Project_7/blob/Michael/Decades%20after%20preprocessing.PNG)
 ### Description of feature engineering and the feature selection, including the team's decision-making process 
 We decided to drop uri, artist, track and decade since these variables did not affect popularity.
+![image](https://user-images.githubusercontent.com/97119920/169933638-b2821253-40d8-4687-a200-a991bb9b5a5c.png)
 
 ### Description of how data was split into training and testing sets 
  ### Explanation of model choice, including limitations and benefits 
