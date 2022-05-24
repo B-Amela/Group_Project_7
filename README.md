@@ -47,7 +47,8 @@ We decided to drop uri, artist, track and decade since these variables did not a
 
 ### Description of how data was split into training and testing sets 
  ### Explanation of model choice, including limitations and benefits 
- Neural networks behave like a regression model dependent on output variables that can be predicted from independent input variables. We chose the random forest deep learning model because it is a good model to handle outliers and nonlinear data. Furthermore, we chose neural networks random forest because it is a type of ensemble that combines multiple smaller models into a more robust, scalable and accurate model. The model uses weak learner algorithms or decision trees that produce a final classification output.
+ Neural networks behave like a regression model dependent on output variables that can be predicted from independent input variables. We chose the random forest deep learning model because it is a good model to handle outliers and nonlinear data. Furthermore, we chose neural networks random forest because it is a type of ensemble that combines multiple smaller models into a more robust, scalable and accurate model. The model uses weak learner algorithms or decision trees that produce a final classification output.]
+ 
 ### Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables)
 
 ### Description of how model was trained (or retrained, if they are using an existing model)
@@ -55,7 +56,8 @@ Our model was trained to have popularity, the metric we are interested in, as ou
 
 ![image](https://user-images.githubusercontent.com/97119920/170082971-ca4a32ae-f37d-4b6e-bd13-66437d77fb29.png)
 
-### Description and explanation of the model's confusion matrix, including final accuracy score Additionally, the model obviously addresses the question or problem the team is solving.  
+### Description and explanation of the model's confusion matrix, including final accuracy score. Additionally, the model obviously addresses the question or problem the team is solving.  
+
 ## Technologies, languages, tools, and algorithms used throughout the project 
 ###  Database stores static data for use during the project 
 ###  Database interfaces with the project in some format (e.g., scraping updates the database, or database connects to the model) 
@@ -71,8 +73,6 @@ Our model was trained to have popularity, the metric we are interested in, as ou
 ### Recommendation for future analysis 
 ### Anything the team would have done differently
 
-We did OneHot Encoder to encode the categorical data and replace our unencoded categorical variable
-https://github.com/B-Amela/Group_Project_7/blob/Michael/Decades%20after%20preprocessing.PNG
 ### Description of feature engineering and the feature selection, including the team's decision-making process 
 ### Description of how data was split into training and testing sets 
  ### Explanation of model choice, including limitations and benefits 
