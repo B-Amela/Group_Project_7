@@ -60,9 +60,6 @@ Our model was trained to have popularity, the metric we are interested in, as ou
 ### Description and explanation of the model's confusion matrix, including final accuracy score. Additionally, the model obviously addresses the question or problem the team is solving.  
 The model was able to correctly classify data it was not trained on 80% of the time. 
 
-Machine Learning Model: Classification models
-
-Database: SQL, PgAdmin
 
 ## Communication Protocols
 Slack group messaging and zoom meetings as needed
