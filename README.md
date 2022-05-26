@@ -62,6 +62,11 @@ Our model was trained to have popularity, the metric we are interested in, as ou
 ### Description and explanation of the model's confusion matrix, including final accuracy score. Additionally, the model obviously addresses the question or problem the team is solving.  
 The model was able to correctly classify data it was not trained on 80% of the time. 
 
+## Dashboard Ideas
+![image](https://user-images.githubusercontent.com/96217224/170396944-d66834f0-667e-4f21-8c0f-944e0a21a977.png)
+
+![image](https://user-images.githubusercontent.com/96217224/170396918-c09f2aa8-a2e6-4c77-a1ee-f2075f6430a4.png)
+
 
 ## Communication Protocols
 Slack group messaging and zoom meetings as needed
