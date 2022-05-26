@@ -47,8 +47,7 @@ We decided to drop uri, artist, track and decade since these variables did not a
 
 ### Description of how data was split into training and testing sets 
 By default, our training and testing data sets are 75% and 25%, respectively, of the original data. The following code shows the data's 75-25 split.
-
-*Add image Here*
+![image](https://user-images.githubusercontent.com/96217224/170397240-1db5c138-143e-4d10-bc71-f1480a91c023.png)
  ### Explanation of model choice, including limitations and benefits 
  Neural networks behave like a regression model dependent on output variables that can be predicted from independent input variables. We chose the random forest deep learning model because it is a good model to handle outliers and nonlinear data. Furthermore, we chose neural networks random forest because it is a type of ensemble that combines multiple smaller models into a more robust, scalable and accurate model. The model uses weak learner algorithms or decision trees that produce a final classification output.]
  
