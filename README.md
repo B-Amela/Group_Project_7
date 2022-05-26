@@ -1,5 +1,7 @@
 # Group_Project_7
 
+## Deliverable 2
+
 ## Selected topic 
 The selected topic is analyzing and visualizing Spotify data to determine what factors contribute to song popularity. Additionally utilizing those factors to predict future song popularity.
 ###  Reason why they selected their topic
