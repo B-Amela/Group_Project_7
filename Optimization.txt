@@ -24,13 +24,19 @@ Adding an additional layer of neurons is shown in model can be seen in the code 
 Picture Here
 
 
-We received a much higher loss on our model with a decreased accuracy score
+We received a much higher loss on our model with a decreased slightly decreased accuracy score. With a higher loss value, the machine learning is showing more errors in setting weights and biases. 
 
 Picture here
 
 
 ##Logistic Regression Model
+Logistic regression models are used as classification algorithm to analyze continuous and categorical variables. It does this by taking input variables and predicts the probability of input data belonging to one of two groups - in our case is a song popular or not. 
 
+
+
+
+
+Logistic models can be easier to avoid overfitting, but are not as advantageous when using larger datasets because they can become overwhelmed. With the amount of songs in our dataset and beyond, our random forest model can be used more easily in future use. The use between the two is open to interpretation and since our accuracy and loss scores are similar, we chose random forest. 
 
 
 
