@@ -7,8 +7,7 @@ With using the data prepossed by removing uri, artist, and track because of thei
 ##More Neurons
 The code for adding additional neurons to our model is below. The thought behind adding additional nodes makes increases distribution of computing making the model faster, neurons can focus on more futures making it smarter, and makes it less likely to fixate on complex variables making it more robust. Potential issues to increased neurons in our hidden layer is overfitting by fitting training data too well.
 
-![d1](https://github.com/B-Amela/Group_Project_7/blob/Michael/Decades%20before%20preprocessing.PNG)
-![plot](https://github.com/B-Amela/Group_Project_7/blob/Michael/MoreNodesCode.PNG) 
+![d1](https://github.com/B-Amela/Group_Project_7/blob/78f69e9da0ad39a2ec40c356eccb3402229b7947/MoreNodesCode.PNG)
 
 
 We received essentially identical loss and accuracy scores to our original model, so the extra neurons is not needed
