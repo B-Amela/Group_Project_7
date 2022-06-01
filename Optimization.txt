@@ -1,1 +1,38 @@
+# Group_Project_7
+
+## Optimization Attempts
+With using the data prepossed by removing uri, artist, and track because of their insignificance to popularity and using one hot encoder to change decade year strings to numeric values, we tried to optimize our Random Forest model and tried another model all together to increase accuracy score. 
+
+### Random Forest model
+##More Neurons
+The code for adding additional neurons to our model is below. The thought behind adding additional nodes makes increases distribution of computing making the model faster, neurons can focus on more futures making it smarter, and makes it less likely to fixate on complex variables making it more robust. Potential issues to increased neurons in our hidden layer is overfitting by fitting training data too well.
+
+
+Picture Here
+
+We received essentially identical loss and accuracy scores to our original model, so the extra neurons is not needed
+
+Picture Here
+
+
+
+
+
+##More Layers
+Adding an additional layer of neurons is shown in model can be seen in the code below.
+
+Picture Here
+
+
+We received a much higher loss on our model with a decreased accuracy score
+
+Picture here
+
+
+##Logistic Regression Model
+
+
+
+
+
 
