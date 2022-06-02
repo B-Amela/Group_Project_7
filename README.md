@@ -2,6 +2,10 @@
 
 ## Deliverable 2
 
+### Google Slides Link
+https://docs.google.com/presentation/d/1qWqStnb49WUHOJIqhlVrTTYAiB0vgLiarqNuwnsUHSI/edit#slide=id.p
+
+
 ## Selected topic 
 The selected topic is analyzing and visualizing Spotify data to determine what factors contribute to song popularity. Additionally utilizing those factors to predict future song popularity.
 ###  Reason why they selected their topic
