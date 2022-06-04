@@ -81,14 +81,15 @@ Split into  training and testing sets
 ## Analysis
 
 #### Confusion matrix?
-![Confusion Matrix]() <br>
+![Confusion Matrix](https://github.com/B-Amela/Group_Project_7/blob/Michael/Confusion%20matrix.PNG) <br>
 
 -Our model’s accuracy score was 80% meaning the model was able to correctly classify data it was not trained on 80% of the time. 
 -The precision, meaning how reliable a positive or negative a popularity classification is, was 77% and 84% respectively. This mean if a song is predicted to be popular, it is true 77% of the time. 
 
 
 ## Dashboard
-![DashboardSummaryData](INSERT IMAGE HERE)
+![DashboardSummaryData](https://github.com/B-Amela/Group_Project_7/blob/Michael/Dashboard1.PNG)
+
 Our Dashboard can be found [here.](https://public.tableau.com/app/profile/doug.elwood/viz/MusicToYourEarsDashboard/MusictoyourearsDashboard)<br/>
 
 We used Tableau, a visual analytics platform to make an interactive dashboard. It allowed us to further manipulate the data to make visualizations that catch the eye. Using our dashboard, users can chose features and see their effect on popularity.
