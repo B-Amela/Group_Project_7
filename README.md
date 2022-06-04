@@ -1,99 +1,103 @@
-# Group_Project_7
+# Final Project - Spotify Song Popularity
+
+
+Link to presentation can be found: https://docs.google.com/presentation/d/1qWqStnb49WUHOJIqhlVrTTYAiB0vgLiarqNuwnsUHSI/edit#slide=id.gbd6c00e730_0_122
 
 ## Project Overview
 
-## Selected topic 
-The selected topic is analyzing and visualizing Spotify data to determine what factors contribute to song popularity. Additionally utilizing those factors to predict future song popularity.
-###  Reason why they selected their topic
-We enjoy music, and it is an interesting choice to visualize. 
- ###  Description of their source of data 
-The data source is a Kaggle Spotify dataset in a csv file. There are approximately 40K sets of data within the csv. 
-### Questions they hope to answer with the data
-- What components within the dataset determine popularity of a song?
-- How can we use these components to predict future song popularity?
-- What factors have no contribution?
- ###  Description of the data exploration phase of the project
-- Mock ML to clean and visualize the data
-- EDA
- ### Description of the analysis phase of the project
-### Description of data preprocessing 
-##Deep Neural Network- We had one column of categorical data; the decade in form of XXs (i.e 60s for 1960's). # Group_Project_7
+<strong> Slected Topic: </strong> The selected topic is analyzing and visualizing Spotify data to determine what factors contribute to song popularity. Additionally, utilizing those factors to predict future song popularity. <br>
 
-## Project Overview
+<strong> Reason for Choosing this Topic: </strong>
+We enjoy music, and it is an interesting choice to visualize.
+<br>
 
-## Selected topic 
-The selected topic is analyzing and visualizing Spotify data to determine what factors contribute to song popularity. Additionally utilizing those factors to predict future song popularity.
-###  Reason why they selected their topic
-We enjoy music, and it is an interesting choice to visualize. 
- ###  Description of their source of data 
-The data source is a Kaggle Spotify dataset in a csv file. There are approximately 40K sets of data within the csv. 
-### Questions they hope to answer with the data
-- What components within the dataset determine popularity of a song?
-- How can we use these components to predict future song popularity?
-- What factors have no contribution?
- ###  Description of the data exploration phase of the project
-- Mock ML to clean and visualize the data
-- EDA
- ### Description of the analysis phase of the project
-### Description of data preprocessing 
-##Deep Neural Network- We had one column of categorical data; the decade in form of XXs (i.e 60s for 1960's).
-![d1](https://github.com/B-Amela/Group_Project_7/blob/Michael/Decades%20before%20preprocessing.PNG)
+<strong> Questions we Hope to Answer: </strong> 
+*What components within the dataset determine popularity of a song?
+*How can we use these components to predict future song popularity?
+*What factors have no contribution? <br><br>
 
-We did OneHot Encoder to encode the categorical data and replace our unencoded categorical variable
-![d1](https://github.com/B-Amela/Group_Project_7/blob/Michael/Decades%20after%20preprocessing.PNG)
-### Description of feature engineering and the feature selection, including the team's decision-making process 
-We decided to drop uri, artist, track and decade since these variables did not affect popularity.
-![image](https://user-images.githubusercontent.com/97119920/169933638-b2821253-40d8-4687-a200-a991bb9b5a5c.png)
+<strong> Null Hypothesis: </strong> FINISH NULL <br>
+<strong> Label: </strong>Is the song popular or not <br>
 
-### Description of how data was split into training and testing sets 
-By default, our training and testing data sets are 75% and 25%, respectively, of the original data. The following code shows the data's 75-25 split.
+## Team
 
-*Add image Here*
- ### Explanation of model choice, including limitations and benefits 
- Neural networks behave like a regression model dependent on output variables that can be predicted from independent input variables. We chose the random forest deep learning model because it is a good model to handle outliers and nonlinear data. Furthermore, we chose neural networks random forest because it is a type of ensemble that combines multiple smaller models into a more robust, scalable and accurate model. The model uses weak learner algorithms or decision trees that produce a final classification output.]
+<strong>Square: </strong> Amela<br>
+<strong>Circle: </strong> Doug<br>
+<strong>Triangle: </strong> Harish<br>
+<strong>Triangle: </strong> Megan<br>
+<strong>Triangle: </strong> Michael<br>
+
+## Resources
+
+<strong> Data Source: </strong>Spotify Dataset <br> 
+The data source is from Kaggle downloaded as a csv file. There are approximately 40K sets of data within the csv.<br> 
+
+https://www.kaggle.com/datasets/akiboy96/spotify-dataset
+
+### Technology
+<strong>Software:</strong> Jupyter Notebook, Python, Amazon Web Service (AWS) RDS, PgAdmin 4, Tableau, Google slides, Github <br>
+<strong>Libraries:</strong> Pandas, Numpy, Scipy, Scikit-learn, imblearn, psycopg2, matplotlib,  PostgreSQL <br >
+
+## Project Description
+
+#### Database Integration/Data Cleaning and Exploration
+Started by cleaning data 
+- Data downloaded from Kaggle.com as a csv file. 
+- Csv file uploaded into AWS to store raw, immutable data. AWS chosen because it can handle larger datasets.
+- Duplicates checked by "uri" uniqueness with queries after uploading database to pgAdmin 4. Duplicate entry dropped with PostgreSQL. Our cleaned data stored was then stored as tables ready for analysis. 
+- Then, we connected our database to Jupyter notebook. Using Pandas, we dropped columns "URI", "Artist", and "Track" as they do not have an effect on popularity .
  
-### Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables)
 
-### Description of how model was trained (or retrained, if they are using an existing model)
-Our model was trained to have popularity, the metric we are interested in, as our y variable. Our x variable are all our other processed columns in our dataset. We split test trained our model by scaling and fiting the data as seen in the following code.
 
-![image](https://user-images.githubusercontent.com/97119920/170082971-ca4a32ae-f37d-4b6e-bd13-66437d77fb29.png)
+#### Limitations
+- We did not have limitations with size and use. 
 
-### Description and explanation of the model's confusion matrix, including final accuracy score. Additionally, the model obviously addresses the question or problem the team is solving.  
-The model was able to correctly classify data it was not trained on 80% of the time. 
 
-## Technologies, languages, tools, and algorithms used throughout the project 
-###  Database stores static data for use during the project 
-###  Database interfaces with the project in some format (e.g., scraping updates the database, or database connects to the model) 
-### Includes at least two tables (or collections, if using MongoDB) 
- ### Includes at least one join using the database language (not including any joins in Pandas)
- ### Includes at least one connection string (using SQLAlchemy or PyMongo) Note: If you use a SQL database, you must provide your ERD with relationships.
-## Result of analysis 
-### The dashboard presents a data story that is logical and easy to follow for someone unfamiliar with the topic. It includes all of the following:
-### Images from the initial analysis 
- ### Data (images or report) from the machine learning task 
-### At least one interactive element Either the dashboard is published or the submission includes a screen capture video of it in action.  
+![ERD schema](https://github.com/B-Amela/Group_Project_7/blob/main/Database/Spotify_ERD.png)
+ 
 
-### Recommendation for future analysis 
-### Anything the team would have done differently
+## Machine Learning Model - Random Forest Neural Network
 
-### Description of feature engineering and the feature selection, including the team's decision-making process 
-### Description of how data was split into training and testing sets 
- ### Explanation of model choice, including limitations and benefits 
-### Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables)
-### Description of how model was trained (or retrained, if they are using an existing model)
-### Description and explanation of the model's confusion matrix, including final accuracy score Additionally, the model obviously addresses the question or problem the team is solving.  
-## Technologies, languages, tools, and algorithms used throughout the project 
-###  Database stores static data for use during the project 
-###  Database interfaces with the project in some format (e.g., scraping updates the database, or database connects to the model) 
-### Includes at least two tables (or collections, if using MongoDB) 
- ### Includes at least one join using the database language (not including any joins in Pandas)
- ### Includes at least one connection string (using SQLAlchemy or PyMongo) Note: If you use a SQL database, you must provide your ERD with relationships.
-## Result of analysis 
-### The dashboard presents a data story that is logical and easy to follow for someone unfamiliar with the topic. It includes all of the following:
-### Images from the initial analysis 
- ### Data (images or report) from the machine learning task 
-### At least one interactive element Either the dashboard is published or the submission includes a screen capture video of it in action.  
+#### How does a random forest model work? Why this model?
+Neural networks behave like a regression model dependent on output variables that can be predicted from independent input variables. We chose the random forest deep learning model because it is a good model to handle outliers and nonlinear data. Furthermore, we chose neural networks random forest because it is a type of ensemble that combines multiple smaller models into a more robust, scalable and accurate model. The model uses weak learner algorithms or decision trees that produce a final classification output.
 
-### Recommendation for future analysis 
-### Anything the team would have done differently
+#### Limitations
+- The model was not easy to optimize. Challenges included coding, neurons, neuron layers.
+- The model can be susceptible to overfitting
+- With a number of trees comprising the model, can take a long time to run and cost a lot of computer power/memory  
+
+
+#### Preprocessing the Data
+OneHotEncoder
+- OneHotEncoder used to transform decade categorical data to numerical. <br>
+
+Fit and Transform
+- Fit and Transformed using the StandardScaler function <br>
+
+Split into  training and testing sets
+- By default, our training and testing data sets were 75% and 25%, respectively. Our model was trained to have popularity, our target metric, as our y variable. Our x variable are all our other processed features in our processed dataset. <br>
+
+
+## Analysis
+
+#### Confusion matrix?
+![Confusion Matrix]() <br>
+
+-Our model’s accuracy score was 80% meaning the model was able to correctly classify data it was not trained on 80% of the time. 
+-The precision, meaning how reliable a positive or negative a popularity classification is, was 77% and 84% respectively. This mean if a song is predicted to be popular, it is true 77% of the time. 
+
+
+## Dashboard
+![DashboardSummaryData](INSERT IMAGE HERE)
+Our Dashboard can be found [here.](https://public.tableau.com/app/profile/doug.elwood/viz/MusicToYourEarsDashboard/MusictoyourearsDashboard)<br/>
+
+We used Tableau, a visual analytics platform to make an interactive dashboard. It allowed us to further manipulate the data to make visualizations that catch the eye. Using our dashboard, users can chose features and see their effect on popularity.
+
+- Tableau and Interactive Elements
+    - Summary across all decades - Total Popluar songs with average score and a percent of max for the four most significant features from our machine learning model
+    - Drill down by decade - to see number of popular songs and average score and a percent of the max for the four most signicant features by decade
+    - Drop down menu to look at the different features individually and compare average score of popular songs vs non popular songs trending across the decades
+ 
+
+
+
