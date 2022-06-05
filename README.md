@@ -16,7 +16,8 @@ We enjoy music, and it is an interesting choice to visualize.
 *How can we use these components to predict future song popularity?
 *What factors have no contribution? <br><br>
 
-<strong> Null Hypothesis: </strong> FINISH NULL <br>
+<strong> Null Hypothesis: </strong> There is no correlation between song features and popularity <br>
+<strong> Alternate Hypothesis: </strong> There is correlation between song features and popularity allowing predictions of popular songs based off of features <br>
 <strong> Label: </strong>Is the song popular or not <br>
 
 ## Team
@@ -85,6 +86,7 @@ Split into  training and testing sets
 
 -Our model’s accuracy score was 80% meaning the model was able to correctly classify data it was not trained on 80% of the time. 
 -The precision, meaning how reliable a positive or negative a popularity classification is, was 77% and 84% respectively. This mean if a song is predicted to be popular, it is true 77% of the time. 
+-Shown by the F1 score this model is better at predicting popular songs than not popular songs (80%).  We are basing our results off of this metric since this score balances the concerns of both precision and recall into one. Maximizing precision will minimize the number false positives, whereas maximizing the recall will minimize the number of false negatives
 
 
 ## Dashboard
@@ -99,6 +101,10 @@ We used Tableau, a visual analytics platform to make an interactive dashboard. I
     - Drill down by decade - to see number of popular songs and average score and a percent of the max for the four most signicant features by decade
     - Drop down menu to look at the different features individually and compare average score of popular songs vs non popular songs trending across the decades
  
+ ## Outcome
+ Instrumentallness is the key to making a popular song. There has to be a good balance: have words in the song, but not too wordy. Accousticness, danceability, and energy round out the top features. With that in mind, go hit the studio and make yourself a hit!
+ 
+ ![Summary](https://github.com/B-Amela/Group_Project_7/blob/Michael/BarChart.png)
 
 
 
