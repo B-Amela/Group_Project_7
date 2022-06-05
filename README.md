@@ -11,7 +11,7 @@ Link to presentation can be found: https://docs.google.com/presentation/d/1qWqSt
 We enjoy music, and it is an interesting choice to visualize.
 <br>
 
-<strong> Questions we Hope to Answer: </strong> 
+<strong> Questions we Hope to Answer: </strong> <br>
 *What components within the dataset determine popularity of a song?<br>
 *How can we use these components to predict future song popularity?<br>
 *What factors have no contribution? <br><br><br>
