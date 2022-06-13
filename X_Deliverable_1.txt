@@ -1,0 +1,12 @@
+# Technologies Used
+## Data Cleaning and Analysis
+Pandas will be used to clean the data and perform an exploratory analysis in Juypter notebook. Further analysis will be completed using Python coding language.
+
+## Database Storage
+POSTGRESQL is the database we intend to use to save our data. pgAdmin 4 will host our database. We will import and export data as CSV files into Jupyter notebook.
+
+## Machine Learning
+sklearn.ensemble is the ML library we'll be using to create a logistic regression model. We will import RandomForestClassifier to make classifications. Our x_train includes features such as    "acousticness","danceability", "duration_ms", "energy", "explicit", "instrumentalness", "key", "liveness", "loudness", "mode","popularity", "speechiness","tempo","valence", "year." Our y_train target is “popularity.”
+
+## Dashboard
+Sklearn.metrics will be used to generate reports. We will also use Tableau to create visualizations

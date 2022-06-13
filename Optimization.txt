@@ -1,0 +1,44 @@
+# Group_Project_7
+
+## Optimization Attempts
+With using the data prepossed by removing uri, artist, and track because of their insignificance to popularity and using one hot encoder to change decade year strings to numeric values, we tried to optimize our Random Forest model and tried another model all together to increase accuracy score. 
+
+### Random Forest model
+##More Neurons
+The code for adding additional neurons to our model is below. The thought behind adding additional nodes makes increases distribution of computing making the model faster, neurons can focus on more futures making it smarter, and makes it less likely to fixate on complex variables making it more robust. Potential issues to increased neurons in our hidden layer is overfitting by fitting training data too well.
+
+![d1](https://github.com/B-Amela/Group_Project_7/blob/78f69e9da0ad39a2ec40c356eccb3402229b7947/MoreNodesCode.PNG)
+
+
+We received essentially identical loss and accuracy scores to our original model, so the extra neurons is not needed
+
+Picture Here
+
+
+
+
+
+##More Layers
+Adding an additional layer of neurons is shown in model can be seen in the code below.
+
+Picture Here
+
+
+We received a much higher loss on our model with a decreased slightly decreased accuracy score. With a higher loss value, the machine learning is showing more errors in setting weights and biases. 
+
+Picture here
+
+
+##Logistic Regression Model
+Logistic regression models are used as classification algorithm to analyze continuous and categorical variables. It does this by taking input variables and predicts the probability of input data belonging to one of two groups - in our case is a song popular or not. 
+
+
+
+
+
+Logistic models can be easier to avoid overfitting, but are not as advantageous when using larger datasets because they can become overwhelmed. With the amount of songs in our dataset and beyond, our random forest model can be used more easily in future use. The use between the two is open to interpretation and since our accuracy and loss scores are similar, we chose random forest. 
+
+
+
+
+
